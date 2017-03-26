@@ -11,10 +11,10 @@
 
 /*
 * BASIC
-  - General Style    
-  - Typography Style    
+  - General Style
+  - Typography Style
   - Button Style
-  - Form Style    
+  - Form Style
   - Spacer Style
 
 * HEADER
@@ -42,7 +42,7 @@
   - Contact Form, Map, contact-info
   - Preloader
   - Countdown Clock
-  
+
 * FOOTER
   - Social
   - Copyright
@@ -362,6 +362,10 @@ h1 {
     font-size: 44px;
 }
 
+h1 white {
+    font-size: 44px;
+    color: #fff;
+}
 h2 {
     font-size: 32px;
 }
@@ -382,13 +386,13 @@ h6 {
     font-size: 16px;
 }
 
-    h1.white, h2.white, h3.white, h4.white, h5.white, h6.white, h6 .white {
+h1 white, h2.white, h3.white, h4.white, h5.white, h6.white, h6.white {
         color: #fff;
-    }
+}
 
-    h1.color, h2.color, h3.color, h4.color, h5.color, h6.color, h6 .color {
+h1.color, h2.color, h3.color, h4.color, h5.color, h6.color, h6.color {
         color: #17a697;
-    }
+}
 
 /* Alternate Hadding */
 .alt-title {

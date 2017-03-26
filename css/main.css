@@ -8,28 +8,110 @@
   box-sizing: border-box;
   color: #efe3cd;
   /*background-color: black;*/
-  font-family: 'Sigmar One', bold;
+  /*font-family: 'Sigmar One', bold;*/
+  font-family: 'Ubuntu', sans-serif;
+  /*font-size: 12px;*/
    /*font-family: 'Exo', sans-serif;*/
       /*font-family: 'Oleo Script', cursive;*/
       /*font-family: 'Molle', cursive;*/
 }
+
+h {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .divider {
     height:50px;
 }
 
+.logo-body{
+  background: url('images/logoblack.jpg');
+  height: 640 px;
+  /*width 400px;*/
+  background-size:cover;
+  /*color:#fff;*/
+}
+
+.panel-body1 {
+  height: 400px;
+
+}
+#aboutusimage {
+  height: 492px;
+  width: 100%;
+}
+.aboutus{
+  /*background: url('assets/example/logoblack.jpg') no-repeat center center fixed;*/
+  color:#fff;
+  /*background-size:cover;*/
+  height: 100vh;
+}
 /*.navbar {
 height: 60px;
 }*/
+
+ /**********************************
+ text stuff*************/
+
+
+.textbox {
+  position: relative;
+  top: 100px;
+  /*font-style: oblique;*/
+  text-decoration-color: white;
+  color: #fff
+}
+.textbox h1,
+.textbox h2,
+.textbox h3,
+.textbox h4,
+.textbox h5,
+.textbox p {
+  /*font-style: oblique;*/
+  /*text-decocolor: white;*/
+  color: #fff
+}
+.white h1,
+.white h2,
+.white h3,
+.white h4,
+.white h5,
+.white p {
+  /*font-style: oblique;*/
+  /*text-decocolor: white;*/
+  color: #fff
+}
+
+.textbox p  {
+  /*font-style: oblique;*/
+  /*text-decocolor: white;*/
+  color: #fff
+}
+
+.carousel-caption{
+postition: relative;
+}
 
 h2.text-center {
   margin: 0px;
 }
 .row-text {
-  position: absolute;
-  top: 200px;
+  position: relative;
+  top: 300px;
 }
+
+ /**********************************
+ text stuff*************/
+
 section {
     height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+section {
+    height:450px;
     padding-top:50px;
     padding-bottom:50px;
     overflow:auto;
@@ -49,13 +131,14 @@ section {
 }
 
 .bg-3 {
-	background: url('assets/example/scuba2.jpg') no-repeat bottom center fixed;
+	  background: url('assets/example/house1.jpg') no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
+    /*padding-top: 900px!important;*/
 }
 
 .bg-4 {
-	background: url('assets/example/scuba2.jpg') no-repeat bottom center fixed;
+	background: url('assets/example/scubaice2.jpg') no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
 }
@@ -94,6 +177,8 @@ section {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  position:absolute;
+  bottom: 200px;
   z-index: 10;
 }
 
