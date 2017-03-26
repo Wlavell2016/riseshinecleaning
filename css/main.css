@@ -41,9 +41,9 @@ h {
   width: 100%;
 }
 .aboutus{
-  /*background: url('assets/example/logoblack.jpg') no-repeat center center fixed;*/
+  background: url('assets/example/AdobeStock_kitchen.jpeg') no-repeat center center fixed;
   color:#fff;
-  /*background-size:cover;*/
+  background-size:cover;
   height: 100vh;
 }
 /*.navbar {
