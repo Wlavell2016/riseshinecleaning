@@ -41,7 +41,7 @@ h {
   width: 100%;
 }
 .aboutus{
-  background: url('assets/example/AdobeStock_kitchen.jpeg') no-repeat center center fixed;
+  background: url('assets/example/kitchen.jpeg') no-repeat center center fixed;
   color:#fff;
   background-size:cover;
   height: 100vh;
