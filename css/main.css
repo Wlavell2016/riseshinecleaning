@@ -28,14 +28,15 @@
   /*color:#fff;*/
 }
 
-.panel-body {
+.panel {
   /*height: 400px;*/
+  background-color: transparent;
 }
 
 .white {
-  background-color: transparent;
+  /*background-color: transparent;
   -webkit-filter: blur(4px);
-  filter: blur(4px);
+  filter: blur(4px);*/
 }
 
 .white > h4 {
@@ -149,10 +150,10 @@ section {
 
 .bg-2 {
 	background:
-  /*linear-gradient(
+  linear-gradient(
   rgba(0, 0, 0, 0.2),
   rgba(0, 0, 0, 0.2)
-    ),*/
+    ),
     url('assets/example/AdobeStock_building_window_cleaning.jpeg')no-repeat top center fixed;
     color:#fff;
     background-size:cover;
